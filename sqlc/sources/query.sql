@@ -6,3 +6,5 @@ SELECT * FROM books ORDER BY name;
 
 -- name: GetBooksByCategory :many
 SELECT * FROM books WHERE category = $1 ORDER BY name;
+
+
